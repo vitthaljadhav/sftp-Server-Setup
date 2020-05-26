@@ -1,0 +1,28 @@
+
+sftp remote-system - Establishes an sftp connection to a remote system. For instructions, see How to Open and Close an sftp Connection to a Remote System.
+
+sftp remote-system:file - Copies the named file from remote-system.
+
+bye  - Quits the sftp session.
+
+help  - Lists all sftp commands.
+
+ls  -  Lists the contents of the remote working directory.
+
+lls  - Lists the contents of the local working directory.
+
+pwd  - Displays the name of the remote working directory.
+
+cd  -  Changes the remote working directory.
+
+lcd  - Changes the local working directory.
+
+mkdir - Creates a directory on the remote system.
+
+rmdir - Deletes a directory on the remote system.
+
+get - Copies a file from the remote working directory to the local working directory.
+
+put - Copies a file from the local working directory to the remote working directory.
+
+delete - Deletes a file from the remote working directory.
